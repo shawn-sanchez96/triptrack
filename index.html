@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripTrack | Android Travel Tracker</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: #F6F8FB;
+            color: #17212B;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: #16324F;
+            color: white;
+            text-align: center;
+            padding: 72px 24px;
+        }
+
+        .app-icon {
+            width: 96px;
+            height: 96px;
+            border-radius: 22px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 46px;
+            margin-bottom: 4px;
+        }
+
+        .tagline {
+            font-size: 20px;
+            color: #E8F2FF;
+            margin-bottom: 28px;
+        }
+
+        .download-button {
+            display: inline-block;
+            background: #2878E3;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            padding: 14px 26px;
+            border-radius: 10px;
+        }
+
+        .download-button:hover {
+            background: #1f67c6;
+        }
+
+        .version {
+            display: block;
+            margin-top: 12px;
+            font-size: 13px;
+            color: #E8F2FF;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 50px 24px;
+        }
+
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            color: #16324F;
+            margin-bottom: 12px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .feature {
+            background: #E8F2FF;
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+        .feature h3 {
+            color: #2878E3;
+            margin-bottom: 6px;
+        }
+
+        .requirements {
+            margin-top: 12px;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            color: #667085;
+            padding: 10px 24px 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>TripTrack</h1>
+        <p class="tagline">Your trips, organized.</p>
+
+        <a class="download-button" href="TripTrack-v1.0.apk" download>
+            Download TripTrack for Android
+        </a>
+
+        <span class="version">Version 1.0</span>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About TripTrack</h2>
+            <p>
+                TripTrack is an Android travel tracking application designed to
+                help users organize vacations and their associated excursions.
+                Users can create, view, update, delete, and search stored travel
+                information while keeping trip details organized in one place.
+            </p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+
+            <div class="features">
+
+                <div class="feature">
+                    <h3>Vacation Tracking</h3>
+                    <p>Create and manage vacation details, destinations, hotels, and travel dates.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Excursion Management</h3>
+                    <p>Associate activities and excursions with individual vacations.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Trip Search</h3>
+                    <p>Search saved vacations by vacation title or hotel.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Travel Reports</h3>
+                    <p>Generate vacation and excursion summary reports from stored travel records.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Date Validation</h3>
+                    <p>Validate travel dates to help prevent invalid vacation and excursion information.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Local Storage</h3>
+                    <p>Travel information is persisted locally using an Android Room database.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Installation</h2>
+            <p>
+                TripTrack is distributed as an Android APK. Download the application
+                using the button above and open the APK on an Android device to begin installation.
+            </p>
+
+            <ul class="requirements">
+                <li>Android 8.0 (API 26) or newer</li>
+                <li>Installation from downloaded APK files must be permitted on the device</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        TripTrack Version 1.0 &bull; Software Engineering Capstone Project
+    </footer>
+
+</body>
+</html>
